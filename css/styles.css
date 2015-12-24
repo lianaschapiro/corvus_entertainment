@@ -4,8 +4,19 @@
 	font-family: sans-serif;
 }
 
+#mainbody {
+	background-color: black;
+	background-image: none;
+}
+
 body{
-	background-color: #000000;
+	background-image: url("../images/skyline.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+#mainbody {
+	background-color: black;
 }
 
 #mainlogo img{
@@ -14,10 +25,13 @@ body{
 	margin: auto;
 }
 
-#wrapper{
+.wrapper{
 	width:68%;
 	margin:auto;
+	background-color: rgba(0,0,0, .6);
+	overflow: auto;
 }
+
 #header{
 	height:100px;
 }
@@ -54,13 +68,19 @@ h1{
  	padding-bottom: 20px;
  }
 
+ h2 {
+ 	color: red;
+	margin-top: 20px;
+	margin-bottom: 10px;
+ }
+
 p{
 	font-size: 18px;
 	color: white;
 	line-height: 30px;
 }
 
-#main{
+.main{
 	padding: 20px;
 	padding-top: 45px;
         padding-bottom: 75px;
@@ -68,7 +88,7 @@ p{
 }
 
 #social{
-       margin: 0 auto;
+       margin: 0px auto 20px;
        width: 100%;
 }
 
@@ -83,9 +103,10 @@ a:visited img{
         margin-left: auto;
         margin-right: auto;
         border: none;
+        height: 50px;
 }
 
-#artisttext{
+.artisttext{
 	text-align: justify;
 	font-size: 18px;
 	color: white;
@@ -95,7 +116,9 @@ a:visited img{
 
 img {
 	padding: 0px 10px 0px 10px;
+	height: 300px;
 }
+
 #mainblog{
 	padding: 45px 0px 10px 10px;
 	text-align: left;
@@ -140,4 +163,36 @@ hr {
 #blogarchives p{
 	padding-left: 20px;
 	font-size: 14px;
+}
+
+#album {
+	width: 70%;
+	margin: 0 auto;
+	border: solid white 5px;
+	border-radius: 10px;
+	padding: 8px 12px 4px 7px;
+}
+
+#album iframe {
+	padding: 3px;
+	height: 75px;
+	width: 100%;
+
+}
+
+#imaginary {
+	margin: 30px;
+	border: solid white 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.art {
+	margin: 10px;
+	padding: 15px;
+	border: solid white 5px;
+}
+
+.main a {
+	color: white;
 }
