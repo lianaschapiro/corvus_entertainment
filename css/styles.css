@@ -21,6 +21,7 @@ body{
 
 #mainlogo img{
 	width:79%;
+	height: 100%;
 	display:block;
 	margin: auto;
 }
@@ -32,17 +33,17 @@ body{
 	overflow: auto;
 }
 
-#header{
+.header{
 	height:100px;
 }
 
-#nav{
+nav{
 	height:45px;
 	background-color: #181818;
 	color: white;
 }
 
-#nav li{
+nav li{
 	display:inline;
 	line-height: 27.5px;
 	vertical-align: middle;
@@ -54,11 +55,7 @@ body{
 	color: #B0B0B0;
 }
 
-#nav li:hover {
-	color:white;
-}
-
-#nav li:active {
+nav li:hover {
 	color:white;
 }
 
@@ -90,6 +87,7 @@ p{
 #social{
        margin: 0px auto 20px;
        width: 100%;
+       text-align: center;
 }
 
 a:visited img{
