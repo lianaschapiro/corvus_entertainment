@@ -26,7 +26,6 @@ background-size: cover;
 }
 
 body{
-	background-image: url("../images/skyline.jpg");
 	background-size: 100%;
 	background-attachment: fixed;
 }
@@ -149,8 +148,8 @@ p{
 	text-align: center;
 }
 
-#social{
-       margin: 0px auto 20px;
+.social{
+       margin: 0px auto 40px;
        width: 100%;
        text-align: center;
 }
@@ -160,7 +159,7 @@ a:visited img{
     border: 0;
 }
 
-#social img{
+.social img{
         padding: 50 20 50 20;
         display: inline-block;
         margin-left: auto;
@@ -228,7 +227,7 @@ hr {
 	font-size: 14px;
 }
 
-#album {
+.album {
 	width: 70%;
 	margin: 0 auto;
 	border: solid white 5px;
@@ -236,7 +235,7 @@ hr {
 	padding: 8px 12px 4px 7px;
 }
 
-#album iframe {
+.album iframe {
 	padding: 3px;
 	height: 75px;
 	width: 100%;
