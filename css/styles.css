@@ -179,7 +179,7 @@ a:visited img{
 
 img {
 	padding: 0px 10px 0px 10px;
-	height: 300px;
+	height: 250px;
 }
 
 #mainblog{
@@ -254,7 +254,9 @@ hr {
 	margin: 10px;
 	padding: 15px;
 	border: solid white 5px;
+	height: 300px;
 }
+
 
 .main a {
 	color: white;
