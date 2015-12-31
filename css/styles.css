@@ -8,9 +8,6 @@ a {
 	text-decoration: none;
 }
 
-#mainbody {
-	background-image: url("../images/skyline.jpg");
-}
 
 #video-bg {
 position: fixed;
@@ -28,10 +25,6 @@ background-size: cover;
 body{
 	background-size: 100%;
 	background-attachment: fixed;
-}
-
-#mainbody {
-	background-color: black;
 }
 
 #mainlogo img{
