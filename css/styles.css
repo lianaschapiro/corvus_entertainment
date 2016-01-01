@@ -1,7 +1,7 @@
 *{
 	margin:0;
 	padding:0;
-	font-family: sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 a {
@@ -18,8 +18,18 @@ min-width: 100%;
 height: auto;
 min-height: 100%;
 z-index: -100;
-background: transparent url(video-bg.jpg) no-repeat;
+background: transparent url(../images/video-bg.jpg) no-repeat;
 background-size: cover;
+}
+
+@media screen and (max-device-width: 800px){
+	html {
+		background: url(../images/vid-first-frame.jpg) black no-repeat;
+		background-size: cover;
+	}
+	#video-bg {
+		display: none
+	}
 }
 
 body{
@@ -43,22 +53,26 @@ body{
 }
 
 nav{
-	height:45px;
+	height:55px;
 	background-color: rgba(0, 0, 0, .6);
 	font-weight: bold;
-	font-size:15px;
+	font-size:19px;
 	width:100%;
 	margin:auto;
 }	
 
 nav > a {
 	display:inline;
-	line-height: 25px;
 	vertical-align: middle;
 	padding:10px;
 	padding-right: 20px;
 	float:right;
 	color: #B0B0B0;
+}
+
+nav img {
+	height: 85px;
+	padding: 0;
 }
 
 ul {
@@ -76,7 +90,7 @@ li a, .dropbtn {
     display: inline-block;
     color: #B0B0B0;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -114,7 +128,7 @@ li a:hover, .dropdown:hover .dropbtn {
 
 h1{
  	font-size: 32px;
- 	color: red;
+ 	color: white;
  	padding-bottom: 20px;
  }
 
@@ -129,7 +143,7 @@ h1{
  }
 
 p{
-	font-size: 18px;
+	font-size: 22px;
 	color: white;
 	line-height: 30px;
 }
@@ -252,4 +266,26 @@ hr {
 
 .main a {
 	color: white;
+}
+
+.artist-pic {
+	display: inline-block;
+	padding: 0px 0px 20px 0px;
+	margin: 12px;
+	background-color: white;
+	line-height: 50px;
+}
+
+.artist-pic img {
+	padding: 0;
+	opacity: .9;
+}
+
+.artist-pic img:hover {
+	opacity: 1;
+}
+
+.artist-pic p {
+	color: black;
+	font-weight: bold;
 }
