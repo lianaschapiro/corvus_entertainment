@@ -23,16 +23,6 @@ background: transparent url(../images/video-bg.jpg) no-repeat;
 background-size: cover;
 }
 
-@media screen and (max-device-width: 800px){
-	html {
-		background: url(../images/vid-first-frame.jpg) black no-repeat;
-		background-size: cover;
-	}
-	#video-bg {
-		display: none
-	}
-}
-
 body{
 	background-size: 100%;
 	background-attachment: fixed;
@@ -298,4 +288,40 @@ hr {
 .artist-pic p {
 	color: black;
 	font-weight: bold;
+}
+
+.eventflyer {
+	height: 400px;
+}
+
+@media screen and (max-device-width: 800px){
+	html {
+		background: url(images/vid-first-frame.jpg) black no-repeat;
+		background-size: 100%;
+	}
+
+	#video-bg {
+		display: none
+	}
+	.wrapper {
+		width:100%;
+		margin-top:0;
+	}
+	nav {
+		height:75px;
+		
+		font-size:22px;
+		
+	}
+	nav img {
+		height: 115px;
+	}
+
+	li a, .dropbtn {
+    margin-top: 17px;
+	}
+
+	#mainlogo {
+margin-top: 10%;
+	}
 }
